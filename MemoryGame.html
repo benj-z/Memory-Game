@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="MemoryGame.css">
+        <script src="MemoryGame.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>  
+        <header>
+            <h1 class="title">Memory Game 'still need to make name'</h1>
+        </header>
+
+        <section>
+            <h2 class="text" id="i">Remember the order</h2>
+            <p id="score" class="score">Score: 0</p>
+            <div class="buttons" id="buttons">
+                <button value="1" id="button1" class="button" onclick="recordButtonPress('button1');"></button>
+                <button value="2" id="button2" class="button" onclick="recordButtonPress('button2');"></button>
+                <br>
+                <button value="3" id="button3" class="button" onclick="recordButtonPress('button3');"></button>
+                <button value="4" id="button4" class="button" onclick="recordButtonPress('button4');"></button>
+            </div>
+            <button id="reset" onclick="location.reload()">Restart</button>
+        </section>
+    </body>
+</html>
