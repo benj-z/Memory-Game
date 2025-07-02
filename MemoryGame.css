@@ -76,6 +76,29 @@ section{
 
 }
 
+.gameOver{
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(19, 50, 69);
+}
+
+.gameOverText{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(19, 50, 69);
+}
+
+.gameOverScore{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(19, 50, 69);
+}
+
 #reset{
     display: none;
+    align-self: center;
+    margin-top: 20px;
 }
