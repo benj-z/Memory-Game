@@ -83,28 +83,24 @@ section{
 }
 
 .gameOver{
-    display: none;
     text-align: center;
     font-size: 50px;
     color: rgb(19, 50, 69);
 }
 
 .gameOverText{
-    display: none;
     text-align: center;
     font-size: 30px;
     color: rgb(19, 50, 69);
 }
 
 .gameOverScore{
-    display: none;
     text-align: center;
     font-size: 30px;
     color: rgb(19, 50, 69);
 }
 
 #reset{
-    display: none;
     margin-top: 20px;
     margin-left: 665.8px;
     margin-right: 665.8px;

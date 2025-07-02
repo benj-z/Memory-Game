@@ -71,7 +71,6 @@ function recordButtonPress(buttonId) {
                 console.log("incorrect")
                 document.querySelector('#gameOverDiv').style.display = "block";
                 document.querySelector('#gameOverScore').textContent = "Your score was: " + score;
-                document.querySelector('#gameOverScore').style.display = "block";
                 document.querySelector('#reset').style.display = "block";
                 document.querySelector('#buttons').style.display = "none";
                 document.querySelector('#score').style.display = "none";
