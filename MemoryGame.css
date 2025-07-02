@@ -76,12 +76,17 @@ section{
 
 }
 
+.gameOverDiv{
+    display: none;
+    width: 1440px;
+    height: 678px;
+}
+
 .gameOver{
     display: none;
     text-align: center;
     font-size: 50px;
     color: rgb(19, 50, 69);
-    margin: 0px;
 }
 
 .gameOverText{

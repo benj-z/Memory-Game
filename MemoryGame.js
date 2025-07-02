@@ -69,8 +69,7 @@ function recordButtonPress(buttonId) {
 
             else{
                 console.log("incorrect")
-                document.querySelector('#gameOver').style.display = "block";
-                document.querySelector('#gameOverText').style.display = "block";
+                document.querySelector('#gameOverDiv').style.display = "block";
                 document.querySelector('#gameOverScore').textContent = "Your score was: " + score;
                 document.querySelector('#gameOverScore').style.display = "block";
                 document.querySelector('#reset').style.display = "block";
