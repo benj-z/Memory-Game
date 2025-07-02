@@ -101,4 +101,8 @@ section{
     display: none;
     align-self: center;
     margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(19, 50, 69);
+    color: rgb(140, 210, 255);
 }

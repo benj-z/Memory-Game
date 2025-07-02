@@ -75,6 +75,8 @@ function recordButtonPress(buttonId) {
                 document.querySelector('#gameOverScore').style.display = "block";
                 document.querySelector('#reset').style.display = "block";
                 document.querySelector('#buttons').style.display = "none";
+                document.querySelector('#score').style.display = "none";
+                document.querySelector('#i').style.display = "none";
             }
         }
     }
