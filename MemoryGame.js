@@ -11,8 +11,6 @@ function randomise(){
 
 randomise();
 
-console.log(buttons);
-
 function lightButton(){
     if(count < buttons.length){
         var button = document.getElementById(buttons[count]);
@@ -50,12 +48,9 @@ const button4 = document.getElementById('button4');
 function recordButtonPress(buttonId) {
     if(buttonPressOrder.length < buttons.length) {
         buttonPressOrder.push(buttonId);
-        console.log("Current order:", buttonPressOrder);
     
         if(buttonPressOrder.length === buttons.length) {
-            console.log("Four buttons pressed in order:", buttonPressOrder);
             if(compareLists(buttons, buttonPressOrder)){
-                console.log("correct")
                 score += 1;
                 document.querySelector("#score").textContent = "Score: " + score;
                 count = 0;
@@ -64,11 +59,9 @@ function recordButtonPress(buttonId) {
                 var randomButton = buttons[randomNumber];
                 buttons.push(randomButton);
                 randomise();
-                console.log(buttons);
             }
 
             else{
-                console.log("incorrect")
                 document.querySelector('#gameOverDiv').style.display = "block";
                 document.querySelector('#gameOverScore').textContent = "Your score was: " + score;
                 document.querySelector('#buttons').style.display = "none";
